@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 768px) {
+    .todos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap : 10px
+    
+    
+    }
+}
+@media screen and (max-width: 480px) {
+   .todos{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+.todos > div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
